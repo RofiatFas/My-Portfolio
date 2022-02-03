@@ -1,0 +1,84 @@
+body {
+  background-color: #F8F4FF;
+  color: #ffff;
+}
+
+.navbar-brand {
+  margin-left: 56px;
+  size: 36px;
+}
+
+.hire {
+  background-color: #0CBC8B;
+  border-radius: 50px;
+  border: none;
+  color: #ffff;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 5pt;
+  padding-right: 5pt;
+}
+
+.hero {
+  background-color: #845EC2;
+  padding-left: 50pt;
+}
+
+.hello {
+  font-size: 64px;
+  padding-left: 50pt;
+  padding-top: 80px;
+}
+
+.frontend {
+  font-size: 13px;
+  padding-left: 50pt;
+  font-weight: lighter;
+}
+
+.btn {
+  background-color: #ffff;
+  border-radius: 50px;
+  padding-right: 20pt;
+  padding-left: 20pt;
+  color: #845EC2;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 60px;
+}
+
+.about-content {
+  background-color: #845EC2;
+  margin-top: 100pt;
+}
+
+.about-text {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.about-para {
+  padding-left: 70pt;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skill-content {
+  color: black;
+  margin-top: 100pt;
+}
+
+.skill-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.list1 {
+  padding: 2p;
+}
+/*# sourceMappingURL=index.css.map */
