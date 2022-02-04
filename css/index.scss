@@ -57,7 +57,7 @@ body {
 .about-text {
     font-size: $fontsize;
     text-align: center;
-    padding-top: 40px;
+    padding-top: $paddingtop;
 }
 
 .about-para {
@@ -75,8 +75,46 @@ body {
 .skill-text {
     font-size: $fontsize;
     text-align: center;
+    padding-top: $paddingtop;
 }
+
 
 .list1 {
     padding: 2p;
+}
+
+.list2 {
+   margin-left: -150pt;
+}
+
+.edu {
+    @include edu
+}
+
+.edu-text {
+    @include edu-text
+}
+
+.educontent {
+    @include educontent 
+}
+
+.educontent1 {
+    @include educontent1
+}
+
+.educontent2 {
+    @include educontent2
+}
+
+.edu-img {
+    @include edu-img
+}
+
+.exp {
+    @include exp
+}
+
+.exp-text {
+    @include exp-text
 }

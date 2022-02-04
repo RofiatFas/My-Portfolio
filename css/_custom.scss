@@ -3,3 +3,49 @@ $prycolor: #845EC2;
 $secondarycolor: #0CBC8B;
 $textcolor: #ffff;
 $fontsize: 30px;
+$paddingtop: 40px;
+$margingtop: 100pt;
+
+
+@mixin edu {
+    color: black;
+    
+}
+
+@mixin edu-text {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+@mixin educontent {
+    padding-left: 90pt;
+    padding-top: 30pt;
+    
+}
+
+@mixin educontent1 {
+    font-weight: 500;
+}
+
+@mixin educontent2 {
+    font-weight: 400;
+}
+
+@mixin edu-img {
+    margin-left: -25pt;
+    margin-bottom: -17pt;
+    width: 20px;
+    height: 20px;
+}
+
+@mixin exp {
+    background-color: $prycolor;
+    margin-top: $margingtop;
+}
+
+@mixin exp-text {
+    font-size: $fontsize;
+    text-align: center;
+    padding-top: $paddingtop;
+}

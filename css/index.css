@@ -63,9 +63,7 @@ body {
   font-size: 24px;
   font-weight: lighter;
   text-align: left;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .skill-content {
@@ -76,9 +74,55 @@ body {
 .skill-text {
   font-size: 30px;
   text-align: center;
+  padding-top: 40px;
 }
 
 .list1 {
   padding: 2p;
+}
+
+.list2 {
+  margin-left: -150pt;
+}
+
+.edu {
+  color: black;
+}
+
+.edu-text {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.educontent {
+  padding-left: 90pt;
+  padding-top: 30pt;
+}
+
+.educontent1 {
+  font-weight: 500;
+}
+
+.educontent2 {
+  font-weight: 400;
+}
+
+.edu-img {
+  margin-left: -25pt;
+  margin-bottom: -17pt;
+  width: 20px;
+  height: 20px;
+}
+
+.exp {
+  background-color: #845EC2;
+  margin-top: 100pt;
+}
+
+.exp-text {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
 }
 /*# sourceMappingURL=index.css.map */
