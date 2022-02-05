@@ -118,6 +118,7 @@ body {
 .exp {
   background-color: #845EC2;
   margin-top: 100pt;
+  height: 650px;
 }
 
 .exp-text {
@@ -125,4 +126,109 @@ body {
   text-align: center;
   padding-top: 40px;
 }
+
+.exp-content {
+  padding-left: 90pt;
+}
+
+.exp-img {
+  margin-left: -53pt;
+  margin-bottom: -28pt;
+}
+
+.inn-text1 {
+  font-weight: 500;
+}
+
+.inn-text2 {
+  font-weight: 200;
+  margin-top: -5pt;
+}
+
+.ui-text {
+  margin-top: 32pt;
+  font-weight: 500;
+}
+
+.ui-icon {
+  margin-left: -45pt;
+  margin-bottom: -20pt;
+}
+
+.ui-list {
+  margin-left: -10pt; 
+  font-weight: 200;
+}
+
+.web {
+  margin-top: 32pt;    
+}
+
+.web-icon {
+  margin-left: -45pt;
+  margin-bottom: -20pt;
+}
+
+.web-list {
+  margin-left: -10pt; 
+  font-weight: 200;
+}
+
+.cert {
+  color: black;
+  margin-top: 100pt;
+}
+
+.cert-text {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50pt;  
+}
+
+.cert-content {
+  padding-left: 90pt;
+  padding-top: 50px;  
+  font-weight: 400; 
+}
+
+.cert-icon1 {
+  margin-left: -30pt;
+  margin-bottom: -17pt; 
+}
+
+.cert-icon2 {
+  margin-left: -30pt;
+  margin-bottom: -17pt; 
+}
+
+.cert-icon3 {
+  margin-left: -30pt;
+  margin-bottom: -17pt; 
+}
+
+.cert-icon4 {
+  margin-left: -30pt;
+  margin-bottom: -17pt; 
+}
+
+.cert1 {
+  font-weight: 500;
+}
+
+.cert2 {
+  font-weight: 500;
+}
+
+.cert3 {
+  font-weight: 500;
+}
+
+.cert4 {
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #845EC2;
+}
+
 /*# sourceMappingURL=index.css.map */

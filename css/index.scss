@@ -118,3 +118,71 @@ body {
 .exp-text {
     @include exp-text
 }
+
+.exp-content {
+    @include exp-content
+}
+
+.exp-img {
+    @include exp-img
+}
+
+.inn-text1 {
+    @include inn-text1
+}
+
+.inn-text2 {
+    @include inn-text2
+}
+
+.ui {
+    @include ui
+}
+
+.ui-text {
+    @include ui-text
+}
+
+.ui-list {
+    @include ui-list
+}
+
+.web {
+    @include web
+}
+
+.web-icon {
+    @include web-icon
+}
+
+.cert {
+    @include cert
+}
+
+.cert-text {
+    @include cert-text
+}
+
+.cert-content {
+    @include cert-content
+}
+
+.cert-icon1 {
+    @include cert-icon1
+}
+
+.cert1 {
+    @include cert1
+}
+
+.cert2 {
+    @include cert1
+}
+
+.cert3 {
+    @include cert1
+}
+
+.cert4 {
+    @include cert1
+}

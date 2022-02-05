@@ -5,6 +5,8 @@ $textcolor: #ffff;
 $fontsize: 30px;
 $paddingtop: 40px;
 $margingtop: 100pt;
+$fontweight1: 500;
+$fontweight2: 400;
 
 
 @mixin edu {
@@ -42,10 +44,121 @@ $margingtop: 100pt;
 @mixin exp {
     background-color: $prycolor;
     margin-top: $margingtop;
+    height: 650px;
 }
 
 @mixin exp-text {
     font-size: $fontsize;
     text-align: center;
-    padding-top: $paddingtop;
+    padding-top: 50pt;
 }
+
+@mixin exp-content {
+    padding-left: 90pt;
+    padding-top: 50px;
+
+@mixin exp-img {
+    margin-left: -53pt;
+    margin-bottom: -28pt;
+    // width: 20px;
+    // height: 20px; 
+}
+
+@mixin inn-text1 {
+    font-weight: $fontweight1;
+    padding-top: 20px;
+}
+
+// @mixin inn-text2 {
+//     font-weight: 200;
+
+@mixin inn-text2 {
+    font-weight: $fontweight1;
+    margin-top: -5pt;
+}
+} 
+
+@mixin ui-text {
+  margin-top: 32pt;
+  font-weight: $fontweight1;
+}
+
+@mixin ui-icon {
+    margin-left: -45pt;
+    margin-bottom: -20pt;
+}
+
+@mixin ui-list {
+   margin-left: -10pt;
+   font-weight: 200; 
+}
+
+@mixin web {
+    margin-top: 32pt;    
+}
+
+@mixin web-icon {
+    margin-left: -45pt;
+    margin-bottom: -20pt;
+}
+
+@mixin web-list {
+    margin-left: -10pt;
+    font-weight: 200;
+ }
+
+ @mixin cert {
+     color: black;
+     margin-top: $margingtop
+ }
+
+ @mixin cert-text {
+    font-size: $fontsize;
+    text-align: center;
+    padding-top: 50pt;  
+ }
+
+ @mixin cert-content {
+    padding-left: 90pt;
+    padding-top: 50px; 
+ }
+
+ @mixin cert-icon1 {
+    margin-left: -30pt;
+    margin-bottom: -17pt; 
+ }
+
+ @mixin cert-icon2 {
+    margin-left: -30pt;
+    margin-bottom: -17pt; 
+ }
+
+ @mixin cert-icon3 {
+    margin-left: -30pt;
+    margin-bottom: -17pt; 
+ }
+
+ @mixin cert-icon4 {
+    margin-left: -30pt;
+    margin-bottom: -17pt; 
+ }
+
+ @mixin cert1 {
+    font-weight: $fontweight1;
+ }
+
+ @mixin cert2 {
+    font-weight: $fontweight1;
+ }
+
+ @mixin cert3 {
+    font-weight: $fontweight1;
+ }
+
+ @mixin cert4 {
+    font-weight: $fontweight1;
+ }
+
+ @mixin footer {
+     background-color: $prycolor;
+ }
